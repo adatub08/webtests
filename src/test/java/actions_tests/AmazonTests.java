@@ -11,6 +11,7 @@ public class AmazonTests {
     public void signInLinkHoverTest(){
         //1- get the page first
         Driver.getDriver().get("https://amazon.com");
+        //URL
 
         //2- create the object of Pages class to reach web elements
         AmazonLandingPage amazonLandingPage = new AmazonLandingPage();
